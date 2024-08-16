@@ -1055,4 +1055,23 @@ a:focus {
     text-align: center;
     text-transform: uppercase;
 }
+.footer_links {
+    list-style: none; /* Remove bullet points */
+    padding: 0; /* Remove padding */
+    margin-top: 20px; /* Remove margin */
+}
+
+.footer_links li {
+    display: inline; /* Display list items in a row */
+    margin: 10px 10px; /* Space between items */
+}
+
+.footer_links a {
+    color: #007bff; /* Link color */
+    text-decoration: none; /* Remove underline from links */
+}
+
+.footer_links a:hover {
+    text-decoration: underline; /* Underline on hover */
+}
 /*# sourceMappingURL=style.css.map */
